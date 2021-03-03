@@ -1,2 +1,4 @@
 # home_work
-Research projects
+Research projects. 
+
+In this repository I put my research projects. 
