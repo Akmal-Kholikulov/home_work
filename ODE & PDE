@@ -30,3 +30,10 @@ from pydens import Solver, NumpySampler, add_tokens, ConstantSampler
 import numpy as np
 
 add_tokens()
+
+
+# Create solver for differential equation
+
+pde = {'n_dims': 2,
+       'form': lambda u, x, y: D(D(u, x), x) + D(D(u, y), y) - 5 * sin(np.pi * (x + y)),
+       'boundary_condition': 1}
