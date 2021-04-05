@@ -26,3 +26,7 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore')
 
+from pydens import Solver, NumpySampler, add_tokens, ConstantSampler
+import numpy as np
+
+add_tokens()
