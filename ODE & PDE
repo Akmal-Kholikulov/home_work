@@ -37,3 +37,9 @@ add_tokens()
 pde = {'n_dims': 2,
        'form': lambda u, x, y: D(D(u, x), x) + D(D(u, y), y) - 5 * sin(np.pi * (x + y)),
        'boundary_condition': 1}
+
+body = {'layout': 'fa fa fa f',
+        'units': [15, 25, 15, 1],
+        'activation': [tf.nn.tanh, tf.nn.tanh, tf.nn.tanh]}
+       
+       
