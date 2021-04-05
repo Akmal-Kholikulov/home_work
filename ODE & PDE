@@ -18,3 +18,11 @@
 Сперва пройдемся по всем этапам настройки PyDEns модели на простом примере обыкновенных дифференциальных уравнений и потом решим чуть более сложное дифференциальное уравнение Пуассона. 
 Через систему импортируем библиотеки tensorflow, numpy, matplotlib.pyplot. 
 
+
+Code:
+
+import tensorflow as tf
+import matplotlib.pyplot as plt
+import warnings
+warnings.filterwarnings('ignore')
+
