@@ -41,5 +41,9 @@ pde = {'n_dims': 2,
 body = {'layout': 'fa fa fa f',
         'units': [15, 25, 15, 1],
         'activation': [tf.nn.tanh, tf.nn.tanh, tf.nn.tanh]}
-       
+
+config = {'body': body,
+          'pde': pde}
+
+us = NumpySampler('uniform', dim=2) # procedure for sampling points from domain       
        
