@@ -51,3 +51,9 @@ dg = Solver(config)
 dg.fit(batch_size=100, sampler=us, n_iters=1500)
 
 #Visualize reults
+# x = np.arange(-5, 5.1, 0.5)
+# y = np.arange(-5, 5.1, 0.5)
+x = np.arange(0, 1.01, 0.05)
+y = np.arange(0, 1.01, 0.05)
+
+X,Y = np.meshgrid(x,y)
