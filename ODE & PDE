@@ -49,3 +49,5 @@ us = NumpySampler('uniform', dim=2) # procedure for sampling points from domain
        
 dg = Solver(config)
 dg.fit(batch_size=100, sampler=us, n_iters=1500)
+
+#Visualize reults
