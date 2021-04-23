@@ -61,3 +61,7 @@ X,Y = np.meshgrid(x,y)
 XY=np.array([X.flatten(),Y.flatten()]).T
 
 XY.shape
+
+Z = dg.solve(XY)
+
+Z.shape
